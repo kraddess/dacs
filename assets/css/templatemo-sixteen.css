@@ -423,7 +423,11 @@ header .navbar {
 	border: 1px solid #eee;
 	margin-bottom: 30px;
 }
-
+@media screen and (min-width:1000px) {
+	.product-item{
+		height:600px;
+	}
+}
 .product-item .down-content {
 	padding: 30px;
 	position: relative;
